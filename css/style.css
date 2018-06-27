@@ -2,6 +2,9 @@ body{
     margin: 0;
     background-image: url("../images/fondo.jpg");
     background-color: #38b3d8;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
 }
 
 #page{
@@ -48,11 +51,13 @@ li a {
 li a:hover {
   color: #CA8220;
   font-size: 135%;
+  text-decoration: none;
 }
 
 .activo {
   text-decoration: underline;
   color: #CA8220;
+  text-decoration: none;
   font-size: 135%;
 }
 
@@ -78,21 +83,20 @@ li a:hover {
 #left-menu{
     float: left;
     font-size: 130%;
-    margin-bottom: 40px;
-    margin-left: 12%;
+    margin-left: 9%;
 }
 
 #right-menu{
     float: right;
     font-size: 130%;
-    margin-right: 10%;
+    margin-right: 9%;
 }
 
 
 
 #container{
-    width: 100%;
-    margin-top: 30px;
+    width: 80%;
+    margin: 30px auto;
     text-align: center;
 }
 
@@ -104,19 +108,34 @@ li a:hover {
 
 #about-us{
     font-size: 130%;
+    text-align: justify;
 }
 
 /* #contact-us{
     display:none;
 } */
 
+#info-contact{
+  display: inline-flex;
+    width: 100%;
+    text-align: left;
+}
+
 #phones{
-  text-align: left;
-  width: 75%;
-  margin: 0 auto;
+  width: 12%;
 }
 
 #phones img{
+  width: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#email{
+  width: 50%;
+}
+
+#email img{
   width: 20px;
   margin-left: 5px;
   margin-right: 5px;

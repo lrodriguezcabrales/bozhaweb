@@ -5,21 +5,57 @@ $(document).ready(function(){
     $('#link-home').click(function (params) {
         $('#slider-bozha').show();
         $('#about-us').hide();
-        $('#contact-us').hide();
+        $('#contact-us').hide();        
+        $('#coffee').hide();
+        $('#food').hide();
+        $('#drink').hide();
     })
 
     $('#link-about').click(function (params) {
         $('#slider-bozha').hide();
-        $('#contact-us').hide();
         $('#about-us').show();
-
+        $('#contact-us').hide();        
+        $('#coffee').hide();
+        $('#food').hide();
+        $('#drink').hide();
     });
 
-        $('#link-contact').click(function (params) {
+    $('#link-contact').click(function (params) {
         $('#slider-bozha').hide();
         $('#about-us').hide();
-        $('#contact-us').show();
+        $('#contact-us').show();        
+        $('#coffee').hide();
+        $('#food').hide();
+        $('#drink').hide();
     });
+
+    $('#link-coffee').click(function (params) {
+        $('#slider-bozha').hide();
+        $('#about-us').hide();
+        $('#contact-us').hide();        
+        $('#coffee').show();
+        $('#food').hide();
+        $('#drink').hide();
+    });
+
+    $('#link-food').click(function (params) {
+        $('#slider-bozha').hide();
+        $('#about-us').hide();
+        $('#contact-us').hide();        
+        $('#coffee').hide();
+        $('#food').show();
+        $('#drink').hide();
+    });
+
+
+    $('#link-drink').click(function (params) {
+        $('#slider-bozha').hide();
+        $('#about-us').hide();
+        $('#contact-us').hide();        
+        $('#coffee').show();
+        $('#food').hide();
+        $('#drink').show();
+    });    
 
     $('#left-menu li a').on('click', function(e){
         //e.preventDefault();
