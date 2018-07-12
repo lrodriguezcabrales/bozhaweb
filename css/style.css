@@ -8,7 +8,7 @@ body{
 }
 
 #page{
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
 }
 
 #bar-arcoiris{
@@ -45,12 +45,12 @@ li {
 
 li a {
   text-decoration: none;
-  color: #654330;
+  color: #1d373a;
 }
 
 li a:hover {
   color: #CA8220;
-  font-size: 135%;
+  /* font-size: 135%; */
   text-decoration: none;
 }
 
@@ -101,19 +101,23 @@ li a:hover {
 }
 
 
-
-/* #home-page{
-    display: none;
-} */
-
 #about-us{
+    display: none;
     font-size: 130%;
     text-align: justify;
 }
 
-/* #contact-us{
+#contact-us{
     display:none;
-} */
+}
+
+#coffee{
+  display: none;
+}
+
+#drink{
+  display: none;
+}
 
 #info-contact{
   display: inline-flex;
@@ -152,6 +156,16 @@ li a:hover {
   height: 600px;
 }
 
-#footer{
-  height: 100px;
+footer{
+  margin-top: 10%;
+  background: #1d373a;
+  color: #ffffff;
+}
+
+#footer-social-btns{
+  margin-top: 5%;
+}
+
+#footer-social-btns li a{
+  color: #ffffff;
 }
