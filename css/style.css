@@ -94,7 +94,7 @@ li a:hover {
 
 
 
-#container{
+#container-general{
     width: 80%;
     margin: 30px auto;
     text-align: center;
@@ -102,25 +102,53 @@ li a:hover {
 
 
 #about-us{
-    display: none;
     font-size: 130%;
     text-align: justify;
 }
 
-#contact-us{
-    display:none;
+#contact-us .row{
+  margin-bottom: 1%;
+}
+#contact-us .row .col-12{
+  text-align: left;
 }
 
-#coffee{
-  display: none;
+/*Menu Food*/
+
+.row{
+  text-align: left;
 }
+
+.row-dotted{
+  border-bottom-style: dotted; 
+  border-bottom-width: 4px;
+  border-bottom-color: #CA8220;
+}
+
+.img-menu{
+  width: 100px;
+  height: 100px;
+}
+
+.price{
+  font-weight: bold;
+}
+
+.menu-food .row{
+  margin-bottom: 1%;
+}
+
+.title-food{
+  font-weight: bold;
+}
+
+/*End Food Menu*/
 
 #drink{
-  display: none;
 }
 
 #info-contact{
-  display: inline-flex;
+    display: inline-flex;
     width: 100%;
     text-align: left;
 }
@@ -169,3 +197,6 @@ footer{
 #footer-social-btns li a{
   color: #ffffff;
 }
+
+
+
