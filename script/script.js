@@ -77,12 +77,17 @@ $(document).ready(function(){
         // $('#food').hide();
         // $('#drink').show();
     });    
-
+    $('#right-menu li a').on('click', function(e){
+        //e.preventDefault();
+        $('li a.activo').removeClass('activo');
+        $(this).addClass('activo');
+    });
     $('#left-menu li a').on('click', function(e){
         //e.preventDefault();
         $('li a.activo').removeClass('activo');
         $(this).addClass('activo');
     });
+
 
 });	
 
