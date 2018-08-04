@@ -10,6 +10,7 @@ $(document).ready(function(){
         $('#container-general').empty();
         $("#container-general").load('../views/home.html');
         
+        // $('#container-general').css('width','100%');
         // $('#slider-bozha').show();
 
 
