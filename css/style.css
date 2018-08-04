@@ -245,9 +245,12 @@ footer{
   #page{
     height: 80%;
   } 
-    footer{
-      
-      height: 20%;
-    }
-
+  footer{    
+    height: 20%;
   }
+
+  #slider-bozha img{
+    min-height: 400px;
+  }
+  
+}
