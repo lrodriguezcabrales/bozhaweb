@@ -216,11 +216,12 @@ li a:hover {
 footer{
 
   margin-top: 10%;
-  background: #1d373a;
+  /* background-color: #1d373a; */
   color: #ffffff;
 
   background-image: url('../images/slider/coffee_20.jpg');
   background-size: cover;
+  background-color: #654330;
 }
 
 #footer-social-btns{
