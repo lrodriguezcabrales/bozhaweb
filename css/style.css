@@ -257,4 +257,7 @@ footer{
     min-height: 400px;
   }
   
+  #drink .cocktail{
+    padding-left: 7%;
+  }
 }
