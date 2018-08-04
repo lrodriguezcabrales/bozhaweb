@@ -245,6 +245,10 @@ footer{
   #page{
     height: 80%;
   } 
+
+  #container-general{
+    min-height: 1000px;
+  }
   footer{    
     height: 20%;
   }
