@@ -10,6 +10,11 @@ $(document).ready(function(){
         $('#container-general').empty();
         $("#container-general").load('../views/home.html');
         
+
+        $('.carousel').carousel({
+            interval: 100
+          })
+
         // $('#container-general').css('width','100%');
         // $('#slider-bozha').show();
 
