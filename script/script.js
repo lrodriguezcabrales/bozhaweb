@@ -14,7 +14,7 @@ $(document).ready(function(){
         $('.carousel').carousel({
             interval: 100
           })
-
+          $('.carousel').carousel('cycle')
         // $('#container-general').css('width','100%');
         // $('#slider-bozha').show();
 
