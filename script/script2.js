@@ -1,31 +1,19 @@
-var Router = Backbone.Router.extend({
+var Workspace = Backbone.Router.extend({
+
     routes: {
-        '': 'home',
-        'home': 'home',
-        'about': 'about',
-        'contact': 'contact'
+      "help":                 "help",    // #help
+      "search/:query":        "search",  // #search/kiwis
+      "search/:query/p:page": "search"   // #search/kiwis/p7
     },
-
-    home: function () {
-        $('#container-general').empty();
-        router.navigate('home', true);
-        $("#container-general").load('../views/home.html');
+  
+    help: function() {
+      alert('JAJAJAJA')
     },
-    about: function () {
-        $('#container-general').empty();
-        router.navigate('about', true);
-        $("#container-general").load('../views/about.html');
-    },
-    contact: function () {
-        router.navigate('contact', true);
-        $('#container-general').empty();
-        $("#container-general").load('../views/contact.html');
+  
+    search: function(query, page) {
+        alert('JEJEJE')
     }
-});
+  
+  });
 
-//'router' is an instance of the Router
-var router = new Router();
-
-//Start listening to the routes and manages the history for bookmarkable URL's
-Backbone.history.start();
-
+  app.navigate("help/troubleshooting", {trigger: true});
