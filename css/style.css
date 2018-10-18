@@ -113,6 +113,10 @@ li a:hover {
   text-align: left;
 }
 
+#contact-us-info{
+  width: 40%;
+}
+
 /*Menu Food*/
 
 .row{
@@ -203,11 +207,9 @@ li a:hover {
 }
 
 #map {
-    width: 100%;
-    height: 400px;
-    background-color: grey;
-    margin-bottom: 10%;
-  }
+  width: 60%;
+  float: left;
+}
 
 #slider-bozha img{
   height: 800px;
