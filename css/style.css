@@ -106,6 +106,10 @@ li a:hover {
     text-align: justify;
 }
 
+#contact-us{
+  min-height: 600px;
+}
+
 #contact-us .row{
   margin-bottom: 1%;
 }
@@ -114,7 +118,8 @@ li a:hover {
 }
 
 #contact-us-info{
-  width: 40%;
+  width: 30%;
+  float: right;
 }
 
 /*Menu Food*/
@@ -213,6 +218,10 @@ li a:hover {
 
 #slider-bozha img{
   height: 800px;
+}
+
+#coffee{
+  min-height: 500px;
 }
 
 footer{
