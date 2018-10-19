@@ -118,8 +118,15 @@ li a:hover {
 }
 
 #contact-us-info{
-  width: 30%;
-  float: right;
+  margin-bottom: 2%;
+}
+
+#map {
+  width: 100%;
+}
+
+#map > iframe {
+  width: 100%;
 }
 
 /*Menu Food*/
@@ -211,10 +218,7 @@ li a:hover {
   margin-right: 5px;
 }
 
-#map {
-  width: 60%;
-  float: left;
-}
+
 
 #slider-bozha img{
   height: 800px;
