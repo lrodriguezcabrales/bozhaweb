@@ -224,6 +224,10 @@ li a:hover {
   min-height: 500px;
 }
 
+#img-menu{
+  width: 100%;
+}
+
 footer{
 
   margin-top: 10%;
