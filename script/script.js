@@ -82,7 +82,14 @@ $(document).ready(function(){
         // $('#coffee').show();
         // $('#food').hide();
         // $('#drink').show();
+    });   
+    
+    $('#link-gallery').click(function (params) {
+        $('#container-general').empty();
+        $("#container-general").load('../views/gallery.html');
     });    
+
+
     $('#right-menu li a').on('click', function(e){
         //e.preventDefault();
         $('li a.activo').removeClass('activo');
