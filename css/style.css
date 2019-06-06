@@ -67,6 +67,27 @@ li a:hover {
   margin-left: 70%;
 }
 
+@media only screen and (max-width: 600px) {
+  #top-menu{
+    margin-top: 5px;
+    display: inline-block;
+    margin: 10% auto;
+  }
+
+  #left-menu{
+    float: none !important;
+    font-size: 130%;
+    margin-left: 0px !important;
+  }
+
+  #right-menu{
+    float: none !important;
+      font-size: 130%;
+      margin-right: 0px !important;
+  }
+
+}
+
 #top-menu .language{
   margin-right: 20px;
 }
