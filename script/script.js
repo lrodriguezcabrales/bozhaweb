@@ -72,7 +72,6 @@ $(document).ready(function(){
         // $('#drink').hide();
     });
 
-
     $('#link-drink').click(function (params) {
         $('#container-general').empty();
         $("#container-general").load('../views/drink.html');
@@ -101,6 +100,89 @@ $(document).ready(function(){
         $(this).addClass('activo');
     });
 
+
+    $('#link-es-home').click(function (params) {
+        
+        $('#container-general').empty();
+        $("#container-general").load('../es/home.html');
+        
+
+        $('.carousel').carousel({
+            interval: 100
+          })
+          $('.carousel').carousel('cycle')
+        // $('#container-general').css('width','100%');
+        // $('#slider-bozha').show();
+
+
+        // $('#about-us').hide();
+        // $('#contact-us').hide();        
+        // $('#coffee').hide();
+        // $('#food').hide();
+        // $('#drink').hide();
+    })
+
+    $('#link-es-about').click(function (params) {
+        $('#container-general').empty();
+        $("#container-general").load('../es/about.html');
+
+        // $('#slider-bozha').hide();
+        // $('#about-us').show();
+        // $('#contact-us').hide();        
+        // $('#coffee').hide();
+        // $('#food').hide();
+        // $('#drink').hide();
+    });
+
+    $('#link-es-contact').click(function (params) {
+        $('#container-general').empty();
+        $("#container-general").load('../es/contact.html');
+
+        // $('#slider-bozha').hide();
+        // $('#about-us').hide();
+        // $('#contact-us').show();        
+        // $('#coffee').hide();
+        // $('#food').hide();
+        // $('#drink').hide();
+    });
+
+    $('#link-es-coffee').click(function (params) {
+        $('#container-general').empty();
+        $("#container-general").load('../es/coffee.html');
+        // $('#slider-bozha').hide();
+        // $('#about-us').hide();
+        // $('#contact-us').hide();        
+        // $('#coffee').show();
+        // $('#food').hide();
+        // $('#drink').hide();
+    });
+
+    $('#link-es-food').click(function (params) {
+        $('#container-general').empty();
+        $("#container-general").load('../es/food.html');
+        // $('#slider-bozha').hide();
+        // $('#about-us').hide();
+        // $('#contact-us').hide();        
+        // $('#coffee').hide();
+        // $('#food').show();
+        // $('#drink').hide();
+    });
+
+    $('#link-es-drink').click(function (params) {
+        $('#container-general').empty();
+        $("#container-general").load('../es/drink.html');
+        // $('#slider-bozha').hide();
+        // $('#about-us').hide();
+        // $('#contact-us').hide();        
+        // $('#coffee').show();
+        // $('#food').hide();
+        // $('#drink').show();
+    });   
+    
+    $('#link-es-gallery').click(function (params) {
+        $('#container-general').empty();
+        $("#container-general").load('../es/gallery.html');
+    });  
 
 });	
 
