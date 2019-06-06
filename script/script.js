@@ -1,6 +1,12 @@
 
 $(document).ready(function(){
     // $('.slider').slider();
+    
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        // alert('Esto es un dispositivo móvil');
+        location.href = "../views/404.html";
+     }
+
 
     $('#container-general').empty();
     $("#container-general").load('../views/home.html');
