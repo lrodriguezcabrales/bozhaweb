@@ -69,9 +69,15 @@ li a:hover {
 
 @media only screen and (max-width: 600px) {
   #top-menu{
-    margin-top: 5px;
+    margin-top: 5%;
     display: inline-block;
-    margin: 10% auto;
+    margin-left: 5%;
+    width: 100%;
+    margin-right: 5%;
+  }
+
+  #top-menu .language {
+    margin-right: 25% !important;
   }
 
   #left-menu{
